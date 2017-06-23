@@ -1,0 +1,61 @@
+---
+
+title: Disabling apparatus for road vehicles
+abstract: A vehicle disabling apparatus may include at least one plunger assembly having a plunger and a toggle operable to pivot inside the vehicle tire. The apparatus may include energetic material disposed adjacent the plunger and configured to force the plunger into a vehicle tire. A method of disabling a vehicle having a tire may include using the vehicle's tire to move the plunger and thereby activate the energetic material; and moving the plunger into the tire using gas produced by the energetic material.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=07988381&OS=07988381&RS=07988381
+owner: The United States of America as represented by the Secretary of the Army
+number: 07988381
+owner_city: Washington
+owner_country: US
+publication_date: 20080909
+---
+This application claims the benefit under 35 USC 119 e of U.S. provisional patent application No. 60 993 102 filed Sep. 10 2007 which application is hereby incorporated by reference.
+
+The inventions described herein may be manufactured used and licensed by or for the U.S. Government for U.S. Government purposes.
+
+The invention relates in general to devices for disabling road vehicles and in particular to devices that puncture tires of road vehicles.
+
+Law enforcement personnel are often required to halt fleeing vehicles and military and security personnel are often required to stop unauthorized vehicles from entering secure areas. It is desirable in these circumstances to slow the vehicle by partially or completely disabling the vehicle. A conventional method of disabling the vehicle is to deflate the vehicle s tires. Although frequently done it has been found that firing weapons at the tires of fleeing or approaching vehicles tires is inefficient and presents an unacceptable risk of injury to law enforcement security military personnel or bystanders.
+
+A number of devices have been developed to serve as partial or complete barricades. Other devices may be deployed across roadways to puncture a vehicle s pneumatic tires as the vehicle passes over the device. Examples of conventional devices are shown in U.S. Pat. No. 3 652 059 issued to Groblebe on Mar. 28 1972 U.S. Pat. No. 4 382 714 issued to Hutchison on May 10 1983 U.S. Pat. No. 4 995 756 issued to Kilgrow et al. on Feb. 26 1991 U.S. Pat. No. 5 253 950 issued to Kilgrow et al. on Oct. 19 1993 and reissue U.S. Pat. No. Re. 35 373 issued on Nov. 5 1996 U.S. Pat. No. 5 482 397 issued to Soleau on Jan. 9 1996 U.S. Pat. No. 5 536 109 issued to Lowndes on Jul. 16 1996 U.S. Pat. No. 5 611 408 issued to Abukhader on Mar. 18 1997 U.S. Pat. No. 5 775 832 issued to Kilgrow et al. on Jul. 7 1998 U.S. Pat. No. 5 820 293 issued to Groen et al. on Oct. 13 1998 and U.S. Pat. No. 5 839 849 issued to Pacholok et al. on Nov. 24 1998.
+
+The conventional devices may deflate the tires of a fleeing vehicle. However the conventional devices have numerous disadvantages. Conventional tire deflation devices are bulky in size and accordingly are inherently cumbersome to deploy store operate and maintain. Conventional tire deflation devices are awkward to handle and often difficult to quickly or surreptitiously move.
+
+More importantly although the conventional tire deflation devices may deflate tires they also allow vehicles to continue traveling on the deflated tires. The failure to halt the travel of vehicles is a serious and potentially catastrophic disadvantage in many high security and combat situations. For example when military personnel are attempting to halt a suicide car bomber s approach to a checkpoint deflating the tires merely slows the vehicle down and allows the vehicle to continue traveling on the deflated tires. It is crucial in such situations to completely halt the vehicle to prevent the suicide car bomber from reaching his her target.
+
+It is another object of the invention to provide a device for deflating the tires and halting the travel of a moving vehicle.
+
+One aspect of the invention is a vehicle disabling apparatus comprising at least one plunger assembly including a plunger and a toggle operable to pivot inside a vehicle tire. The apparatus may further comprise energetic material disposed adjacent the plunger and configured to force the plunger into the vehicle tire. The at least one plunger assembly may include a case and a cap wherein the plunger is disposed in one end of the case and the cap is disposed in another end of the case.
+
+The apparatus may further comprise a plurality of plunger assemblies fixed to a base that includes top and bottom strips.
+
+Another aspect of the invention is a method of disabling a vehicle having a tire the method comprising providing the apparatus described above and pivoting the toggle inside the tire. The method may further comprise using the tire to move the plunger and thereby activate the energetic material and moving the plunger into the tire using gas produced by the energetic material.
+
+The invention will be better understood and further objects features and advantages thereof will become more apparent from the following description of the preferred embodiments taken in conjunction with the accompanying drawings.
+
+The present invention includes a tire deflating and drive train entanglement apparatus for stopping a vehicle. The apparatus may be positioned across a roadway. The apparatus includes one or more spike tipped plungers that initiate energetic material when compressed by a tire of a vehicle. The expanding gases produced by the energetic material force one or more of the spike tipped plungers into the tire. When the plunger has penetrated deep enough into the vehicle tire a toggle on the plunger pivots inside of the tire and prevents the plunger from withdrawing from the punctured tire. The entire apparatus is then pulled into the vehicle s drive train by further movement of the vehicle. The apparatus may deflate one or more vehicle tires and may become entangled with the vehicle drive train thereby halting the vehicle.
+
+Plunger is shown in detail in and . B C and D are front viewing from the left side side and two perspective views respectively of plunger and is a sectional view of the plunger along the line of . One end of plunger may include a spiked tip and the other end of the plunger may include a protrusion which may function as a firing pin. An opening may be formed in the upper portion of plunger for receiving a pivot pin for mounting toggle . Plunger may include first and second slots in which the toggle may be rotatably mounted. Two holes may be formed in a bottom portion of plunger . Hole may have a smaller diameter than hole and receives a shear pin . Hole receives a stop pin .
+
+Case is shown in detail in and . B C D and F are front viewing from the left side side rear and two perspective views respectively of the case of . is a sectional view of the case along the line of . A bottom of case may rest on the top of top strip . An opening may be formed in case for receiving a shear pin . Case may include first and second slots . First slot may be open at a top portion and may allow the arm of the toggle to move upward and out of the case . Second slot may be closed at a top portion and may provide a stop for stop pin . Closed top portion of slot engages stop pin fixed to plunger and prevents plunger from completely exiting case as plunger moves upward.
+
+Cap is shown in detail in and . are front and perspective views respectively of the cap of . is a sectional view of the cap along the line of . Cap may include a head having a slot formed therein for engaging for example a screw driver. Cap may include an externally threaded portion that engages internal threads formed on an interior of the bottom of case . Cap may include an opening therein. Opening may include a shoulder . As seen in energetic material for example a primer may be placed in the opening in cap .
+
+Toggle is shown in detail in . B and C are front side and perspective views respectively of the toggle of . Toggle may include an opening for receiving toggle pivot pin . A bottom surface of toggle arm of toggle may be rounded so that when surface bears against the inside surface of a tire arm will slide across the interior tire surface and cause the toggle to rotate about pivot pin as shown in . Rotation of the toggle may prevent the plunger from being pulled out of tire .
+
+Referring now to shows plunger assembly prior to contact with tire . Energetic material may be disposed in opening in cap . Cap may fit through openings described below in top and bottom strips and may thread into bottom of case thereby securing the plunger assembly to the strips . A shear pin may be disposed in opening in case and opening in plunger . Stop pin may be disposed in opening in plunger and in slot in case . Toggle may be rotatably fixed to plunger using pivot pin .
+
+A disabling apparatus for road vehicles may include a plurality of plunger assemblies mounted on a base or support member. A top view of one embodiment of a disabling apparatus is shown in . Apparatus may include a plurality of plunger assemblies that may rotatably join a plurality of bottom strips to respective top strips . Top and bottom strips may include openings for receiving the plunger assemblies . The bottom of case may rest on top strip . Cap may be inserted through opening in bottom strip and opening in top strip and then threaded into the bottom of case .
+
+To prevent the apparatus from unfolding into a straight line appropriate stop members may be provided on bottom strip . As shown in stop members may comprise a raised portion at ends of bottom strip . The maximum angle alpha between a top and bottom strip may be adjusted in various ways for example by moving the location of openings or stop member . By way of example only top and bottom strips may be about 7 inches long about 0.6 inches wide and about 0.1 inch thick. In an exemplary angle alpha may be about 113 degrees.
+
+Additional plunger assemblies may be provided at locations on strips other than those shown in the Figs. In addition the strips may be connected via openings using fasteners such as bolts and nuts rather than using the plunger assemblies . In that case the plunger assemblies may be located on the strips between the openings .
+
+A variety of materials may be appropriate for manufacturing the components of apparatus . By way of example only the top and bottoms strips plunger case cap and toggle may be made of steel.
+
+The toggle may be effective in preventing the plunger from retracting from the tire . Alternatives to the toggle may be possible. For example the toggle may be eliminated and the spiked tip may be replaced with an arrowhead type design. is a perspective view of the tip of a plunger having an arrowhead type of tip . The arrowhead tip may be attached to a reduced diameter portion . The bottom surface of the arrowhead tip may provide the surface that bears against the interior of the tire to prevent retraction of the plunger . Other variations of the toggle may include a pivoting spike tip.
+
+If a tire is relatively thin walled an alternative embodiment of a plunger assembly may include a spike tipped plunger with a slot therein for a toggle . The case cap and energetic material described above may not be included. The plunger may be fastened directly to a base as by welding for example. Upon penetration of a tire wall the toggle will rotate and prevent the plunger from being retracted from the tire . Further rotation of the tire may cause a plurality of the linked plungers to be pulled around the vehicle s axle and into the vehicle s drive train. By entangling the vehicle s tires axles and drive train with the disabling apparatus the vehicle may be halted well before tire is completely deflated.
+
+While the invention has been described with reference to certain preferred embodiments numerous changes alterations and modifications to the described embodiments are possible without departing from the spirit and scope of the invention as defined in the appended claims and equivalents thereof.
+

@@ -1,0 +1,131 @@
+---
+
+title: Method and system for multi-tiered search over a high latency network
+abstract: A computer implemented method and system include executing a search against both a client cache associated with a client and data sources remotely coupled to the client over a network connection. Results from the search against the client cache are rendered on a client UI. The client cache and the client UI are updated with the results from the search against the data sources.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=07945683&OS=07945683&RS=07945683
+owner: SAP AG
+number: 07945683
+owner_city: Walldorf
+owner_country: DE
+publication_date: 20080904
+---
+The present application relates to network communications and in particular a method and system for accessing data.
+
+Mobile users especially business professionals have a need to reliably access their data sources and internet sources any time any place. Data sources and internet sources include for example contact information customer information transaction information news and company profiles. The following describes the importance of such information 
+
+Because these applications were built independently and by different vendors users must use separate siloed applications to access their data. To view data for a given customer users must re input the information in each application. On computing devices such as mobile phones where data input methods are non optimal or where network latency is high re inputting data is very time consuming and frustrating to users. Due to the high burden on the user to re input data most mobile users today do not access their data on their computing devices.
+
+As shown in a common implementation is to provide a UI that is based on a web browser to send every request over the public internet to a server for processing. The server consists of multiple components including 1 a web server that handles http requests from the web browsers and returns HTML to render in the web browser 2 an application server that retrieves data from the database server to return to the web server and 3 a back end DBMS server that stores all the data for the application.
+
+The web based UI architecture can be used on mobile devices such as cell phones by implementing a web browser on the mobile device and sending requests from the web browser to the server over a wireless carrier network. However such an approach requires a network connection. Furthermore response times over wireless carrier networks is slow.
+
+The user is allowed to make data changes using the Mobile Client UI. These client changes are tracked queued up and applied to the server when network connectivity is re established. A conventional optimization may include identifying and synchronizing incremental changes on the server and only re transmitting records that have changed since the last synchronization thereby minimizing network usage.
+
+Many disadvantages are associated with this approach. A data subset must be specified and configured. Download of entire snapshots of data results in a heavy load on the server and network. The download process slows down and does not scale as data sets get larger when for example contact information is large e.g. 100K contacts . In addition data is only as fresh as the last synchronization.
+
+The disadvantages of this approach mirror those of the approaches discussed above. In addition this approach undesirably provides separate and inconsistent UI behaviors requiring the user to know which of the two UIs to use for his specific need.
+
+In one embodiment of the present invention a computer implemented method and system include a client executing a search against both a client cache associated with a client and against data sources remotely coupled to the client over a network connection. Results from the search against the client cache are rendered on a client UI. The client cache and the client UI are updated with the results from the search against the data sources.
+
+In another embodiment of the present invention an application server includes a server cache. The client communicates with the application server which acts as a proxy against which the search is performed. The network connection with the application server is opened. The network connection is closed at a predetermined time in the absence of network activity with the application server. The network connection is reestablished upon indication of a user.
+
+Many other features and embodiments of the present invention will be apparent from the accompanying drawings and from the following detailed description.
+
+In the following description for purposes of explanation numerous specific details are set forth in order to provide a thorough understanding of the description. It will be apparent however to one skilled in the art that embodiments of the disclosure can be practiced without these specific details. In other instances structures and devices are shown in block diagram form in order to avoid obscuring the description.
+
+Reference in this specification to one embodiment an embodiment other embodiments or the like means that a particular feature structure or characteristic described in connection with the embodiment is included in at least one embodiment of the disclosure. The appearances of for example the phrase in one embodiment in various places in the specification are not necessarily all referring to the same embodiment nor are separate or alternative embodiments mutually exclusive of other embodiments. Moreover various features are described which may be exhibited by some embodiments and not by others. Similarly various requirements are described which may be requirements for some embodiments but not other embodiments.
+
+As the amount of data grows and the number of computing devices increases it becomes more and more time consuming and resource intensive to synchronize data sets to multiple computing devices. Conventional solutions such as snapshots must regularly retrieve data to each computing device even when the end user may not be active. In addition snapshot based solutions must retrieve any and all data that the end user potentially may need undesirably causing orders of magnitude more data to be transferred over networks and copied onto multiple computing devices. Very often only a small portion if any of the transferred data is actually used.
+
+The amount of computing and network resources needed is further increased under conventional techniques when multiple data sources are accessed by the user. Instead of querying against one data source such as a contacts or companies database it is common for end users to need access to multiple data source entities such as Contacts Companies Service Requests Orders etc. Additionally end users commonly have access to multiple instances of the same type of data source entity such as Contact records stored in a CRM system Contact records stored in a personal address book Contact records stored in a social networking application and so on.
+
+The present invention involves accessing the increasing amount of data on an increasing number of computing devices primarily by minimizing the amount of data downloaded to a Client User Interface UI . Moreover the present invention keeps Client List UI behavior simple regardless of the size of the data set. The present invention requires relatively little or no maintenance from the end user. All of the data is simply available and ready to access with relatively extremely fast response time.
+
+In one embodiment the present invention can be used for mobile phones. In another embodiment tablet personal computers personal digital assistants PDAs laptop computers wireless devices electronic whiteboards e.g. Smartboards and other similar devices can be used. In one embodiment the present invention can be used wherever immediate response time is desired as well as in the presence of a constrained network e.g. desktops with slow network connectivity to server laptops with intermittent connection to servers etc. .
+
+In one embodiment the present invention may used for end users to quickly find a data record such as a Contact record a Company record or a Opportunity record from a large number of records stored in a data source.
+
+As shown in to accomplish this the end user is presented with a Client List UI that renders a list of records from a data source. Each record in the list has one or more data fields whose values are rendered in the Client List UI . In one embodiment the number of records in this data source can vary from a small number e.g. tens of records through a large number e.g. thousands or even millions of records . Regardless of the number of records in the data source in one embodiment the Client List UI is substantially similar to list based UI shown in . In the example shown there are at least 500 Contact records available in the Client List UI .
+
+As show in at the top of the Client List UI is a Find text box where an end user may enter a text string. When the end user enters a value in the Find text box the Client List UI filters the list of records to those that match the entered text string. In this example entering the text Michael has reduced the number of records in the Client List UI to 52 records. By entering the text string in the Find text box the end user has effectively reduced the list to make it easy for a person to find the record that the end user is interested in.
+
+As shown in after finding the record of interest the end user can drilldown into the record to view detailed information about the record of interest in the form of a Client Detail UI . For example while viewing a Contact record the end user can view Name Account names Title Phone numbers Email addresses Mailing address and other information about the Contact record.
+
+As shown in in addition the end user can also view related information about the record of interest. For example while viewing a Contact record the end user can easily see Accounts Cases Notes Opportunities Yelp Businesses Google Maps LinkedIn and other information related to the Contact record.
+
+Data Sources are computing systems that store and manage data. In one embodiment there could be one or more data sources as depicted by Data Source Entity A and Data Source Entity B . In one embodiment a data source may be implemented in a back end DBMS such as relational database may be stored in a remote computing system and accessible via a public interface such as SOAP or REST APIs over HTTP and or may be publicly available over the internet.
+
+App Server acts as an intermediary between Data Sources and Client . The App Server connects to Data Sources via Data Adapters . The data adapter is a library of code that connects to the Data Source and is able to read write data to the Data Source . In the diagram Data Adapter A connects to Data Source Entity A while Data Adapter B connects to Data Source Entity B .
+
+Server APIs provide an application programming interface to clients that need to access the data from the Data Sources . The Server APIs utilize a Server List Cache to speed up access to the data and minimize requests to Data Sources .
+
+Client provides the user interface for the end user to interact with the data. A Client List UI which is similar or identical to the Client List UI displays a list of records from a Data Source that matches a search specification. For example this may be a list of contact records that matches the last name Smith . The Client List UI contains a Find text box which is similar or identical to the Find Text Box that lets the end user further filter the result list. While viewing records on the Client List UI the end user can drilldown on a particular record to view the Client Detail UI . The Client Detail UI displays all the fields and values of a specific record such as First Name Last Name Work Phone Email Address Title Birthday and so on.
+
+The Client communicates with the App Server over a network such as the internet . In one embodiment the communication uses standard communication protocols such as XML messages over HTTP. In other embodiments other communication protocols including proprietary protocols may be used. In addition requests exchanged between the Client and the App Server may be encrypted to ensure security of the transfer and or compressed to minimize bandwidth usage of the network such as the internet .
+
+The Client uses a Client Cache to store data for immediate access. Usually the cache contains a set of previously accessed data. The Client Cache is not required for proper functioning of the Client but is provided to improve response time and minimize network traffic with the App Server .
+
+The Client List UI interacts with the Server APIs to provide the desired end user behavior described above. The Client List UI executes a query against the Client Cache and also against the Server APIs . The query against the Client Cache returns immediately and provides near instantaneous response time to the end user since the operation completes entirely in the Client UI . The query against the Server APIs searches for additional matches from the data source that may not already reside in the Client Cache . In one embodiment the query against the Server APIs is optional and only occurs if a network connection between the Client UI and Server APIs is available thereby allowing the Client UI to function isolated from the network .
+
+The Client List UI uses a multi tiered caching scheme involving a Client Cache an optional Server List Cache and access to a Data Source .
+
+Various alternative implementations are possible. In one embodiment all records from the data source are cached in the client cache and Step 4 is bypassed if the number of records in the data source entity is less than a threshold A e.g. 500 records .
+
+In another embodiment if the number of records in the Data Source Entity or is less than a threshold B e.g. 5 000 records or requests to the Data Source are costly or limited in number a Server List Cache is created that stores a cache of the data source records to improve response time by eliminating requests to the Data Source .
+
+The Client Cache and the Server List Cache can be refreshed. First the end user can explicitly request a refresh of the data. For example the end user may know that there is a recently inserted or updated record in a data source entity and accordingly may want to see the new information. During a refresh the entire Server List Cache is refreshed and the client cache is reinitialized.
+
+In addition the caches can be periodically refreshed. For example the end user can choose to have a refresh occur on a daily basis. As another example a refresh can occur when an end user begins to re use the client or otherwise provides an appropriate indication and a predetermined number of hours which may constitute a predetermined maximum time have elapsed since the last refresh.
+
+In another embodiment the Data Source sends a notification to the App Server that newly inserted or updated data is available. The App Server updates the appropriate Server List Cache . The App Server may also optionally send notifications to the Client UIs to update their Client Cache .
+
+The end user can select a data record in the Client List UI and drilldown to the Client Detail UI to view additional details about the data record. The Client Detail UI is similar or identical to the Client Detail UI . The following is a method of using the Client Detail UI 
+
+In one embodiment Step 2 and Step 3 as set forth immediately above occur in a background thread in the Client . By executing these steps in the background the end user can continue to perform other UI operations in the Client while the Client Detail UI is updated.
+
+In network protocols that have high latency the Client can open a persistent network connection over the network between the Client and the App Server . In one embodiment the Client opens a TCP socket connection such as using port or using port over SSL. After opening the persistent connection the Client can send requests to the server without the need to setup and tear down the connection for each request.
+
+Opening a persistent connection is especially helpful when the network connection uses SSL which requires a series of handshakes to establish a connection. On wireless carrier networks setup and tear down of a network connection may take for example approximately 1 to 4 seconds as each of the handshake requests require 500 milliseconds or more. To minimize wait time for the end user the Client UI opens a network connection with the Server APIs as soon as the Client UI program starts.
+
+Persistent network connections may have a user or administrator specified timeout specified in for example seconds. When the specified timeout is reached without any network activity the Client UI automatically closes the network connection after a period of inactivity to conserve App Server resources and Client UI resources such as battery life. If specified by the end user the Client UI has the option to send regular ping requests to the App Server before reaching the timeout interval to ensure that the App Server keeps the network connection alive.
+
+If the network connection is closed such as due to server timeouts or loss of network coverage the Client UI automatically re establishes the connection when the Client sends its next network request to the App Server .
+
+As shown in the Client Cache stores data records that have been retrieved to the Client from the App Server . The Client Cache is segmented into multiple partitions. Each partition stores data for each Data Source Entity available in the Client . In one embodiment the Client Cache may be implemented as a set of XML files residing in the client s file system one XML file per Data Source Entity. In another embodiment the Client Cache may use database table s in a lightweight relational database to store the cache entries. Each Data Source Entity may have its own database table or all Data Source Entities may share a single database table and the entries are segmented with the use of a data source entity database column.
+
+Each entry in the Client Cache stores the list fields for the Data Source Entity. For example Contact records may contain the Full Name Company Name and Email Address of the Contact record while entries for Company records may contain Company Name Company Phone Number and Company Location.
+
+Each entry in the Client Cache has a unique ID field that uniquely identifies a record. The Client Detail UI uses the ID field to quickly find a record in the Client Cache . The entries in the Client Cache may be indexed by the first list field for fast searching of records. The entries in the Client Cache may also be sorted to avoid sorting operations when entries are displayed in the Client List UI . shows sample entries in the Client Cache for a Contact Data Source Entity.
+
+The Client Cache also stores the entire set of detail fields for records if the Client UI has previously retrieved them from the App Server . The Client Detail UI renders the data in these detail fields thereby eliminating the need to send a request to Server APIs when viewing the record in the Client Detail UI .
+
+The Server List Cache is used for improving performance as well as for minimizing external data source API calls that typically impose limit on usage frequency. Server List Cache is also used to improve performance of the Find text box . Requests for list data to the Server APIs use the Server List Cache if available.
+
+The Server List Cache stores list column values for a given data source. In one embodiment the Server List Cache is implemented as a database table in a relational database on the App Server . The table has list col1 list col2 list col3 list col4 and list col rest. Each of these columns has an index defined to improve performance of the Find text box .
+
+In another embodiment which may provide improved performance the Server List Cache is implemented as a database table but instead has two columns list data and list data lengths. Column list data stores a concatenated string of all list column values and column list data lengths stores lengths of individual list column values in list data. Both columns are indexed for fast search and retrieval.
+
+Server List Cache is refreshed upon each receipt of a complete entity row from an external data source. It can also be updated on periodic schedule or when notifications from the data source are received by the App Server .
+
+Server List Cache is controlled by two preferences cache server list and server list cache refresh interval. These preferences can be updated via an App Server administration web page. The cache server list preference specifies whether the Server List Cache is enabled for a given data source entity. The server list cache refresh interval preference specifies the cache refresh interval in hours. In one embodiment the default is a 24 hour refresh interval. Updating these preferences starts background processes for populating or cleanup of the Server List Cache . In addition another database table tracks the last time a given Server List Cache has been updated for a given user.
+
+Every time a request to the Server APIs occurs that has cache server list preference enabled the Server APIs verify whether the list cache refresh interval has been reached and refreshes the cache if needed. The Server APIs then perform a lookup against the Server List Cache . At the same time in the background the Server APIs issue a query to the data source with the same query criteria and updates the Server List Cache with new results. In the cases when the query against the data source returns less rows than same criteria against the Server List Cache the Server APIs individually refresh data for rows that may have been deleted or updated on the server that does not satisfy current search criteria.
+
+The Client can also initiate an explicit refresh of the Server List Cache by invoking the Server APIs . Optionally the administrator can schedule background jobs on the App Server to periodically refresh the Server List Caches every server list cache refresh interval.
+
+The Server APIs are a set of programmatic interfaces used by the Client to retrieve data about a data source entity. In one implementation the Server APIs are implemented as XML messages accessible over a network protocol such as HTTP. Parameters to each API are passed via url parameters.
+
+It should be noted that the client should first login to create a session. Subsequent XML APIs should be called with an  skydata session HTTP cookie returned by login call.
+
+It should also be noted that every API returns XML with single root element and with mandatory child XML element that contains required attributes code and message text as a content of XML element.
+
+Login to SkyData server and return a  skydata session HTTP cookie that can be used with subsequent get data and get related data requests to identify the SkyData user who is executing the Server APIs .
+
+In accordance with various embodiments of the present invention the following are exemplary API calls 
+
+An embodiment of the invention relates to a computer storage product with a computer readable or machine accessible medium having executable instructions or computer code thereon for performing various computer implemented operations. The term computer readable medium or machine accessible medium is used herein to include any medium that is capable of storing or encoding a sequence of executable instructions or computer code for performing the operations described herein. The media and computer code can be those specially designed and constructed for the purposes of the invention or can be of the kind well known and available to those having ordinary skill in the computer software arts.
+
+Examples of computer readable media include computer readable storage media such as magnetic media such as hard disks floppy disks and magnetic tape optical media such as Compact Disc Read Only Memories CD ROMs and holographic devices magneto optical media such as floptical disks and hardware devices that are specially configured to store and execute program code such as Application Specific Integrated Circuits ASICs Programmable Logic Devices PLDs Read Only Memory ROM devices and Random Access Memory RAM devices. Examples of computer code include machine code such as produced by a compiler and files containing higher level code that are executed by a computer using an interpreter. For example an embodiment of the invention may be implemented using Java C or other programming language and development tools. Additional examples of computer code include encrypted code and compressed code. Another embodiment of the invention can be implemented in hard wired circuitry in place of or in combination with computer code.
+
+While the invention has been described with reference to the specific embodiments thereof it should be understood by those skilled in the art that various changes may be made and equivalents may be substituted without departing from the true spirit and scope of the invention as defined by the appended claims. In addition many modifications may be made to adapt a particular situation material composition of matter method operation or operations to the objective spirit and scope of the invention. All such modifications are intended to be within the scope of the claims appended hereto. In particular while the methods disclosed herein have been described with reference to particular operations performed in a particular order it will be understood that these operations may be combined sub divided or reordered to form an equivalent method without departing from the teachings of the invention. Accordingly unless specifically indicated herein the order and grouping of the operations is not a limitation of the invention.
+

@@ -1,0 +1,79 @@
+---
+
+title: Superalloy mortar tube
+abstract: A finless mortar tube made of a superalloy includes, seriatim, a breech end, a beginning taper point, an ending taper point, a lower clamp region, an upper clamp region, and a muzzle end. The nominal wall thickness of the tube is constant from forward of the breech end to the beginning taper point and the nominal wall thickness of the tube decreases from the beginning taper point to the ending taper point. The mortar tube is capable of a substantial increase in the rate of fire compared to conventional mortar tubes.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=07963202&OS=07963202&RS=07963202
+owner: The United States of America as represented by the Secretary of the Army
+number: 07963202
+owner_city: Washington
+owner_country: US
+publication_date: 20080409
+---
+This application is a continuation in part of U.S. patent application Ser. No. 11 162 745 filed on Sep. 21 2005 which claims the benefit under 35 USC 119 e of U.S. provisional patent applications 60 522 510 filed on Oct. 7 2004 and 60 522 566 filed on Oct. 14 2004 which applications are hereby incorporated by reference.
+
+The inventions described herein may be manufactured used and licensed by or for the U.S. Government for U.S. Government purposes.
+
+The invention relates in general to mortar tubes and in particular to finless mortar tubes with reduced wall thicknesses.
+
+Mortars tubes presently used by the United States armed forces are generally available in three sizes of nominal inside diameter namely 60 mm millimeter 81 mm and 120 mm. The current 60 mm and 81 mm mortar tubes have cooling fins that function to reduce the tube temperature during firing. The mortar tube cooling fins are expensive to manufacture and add additional weight to the mortar tube. The 120 mm mortar tube does not have cooling fins because its required rate of fire is less than the 60 mm and 81 mm mortars. Lightweight finless mortar tubes in the 60 mm and 81 mm sizes that are capable of firing high pressure rounds at the high rates of fire characteristic of United States mortars are not known.
+
+Generally speaking the soldier in the field benefits whenever anything he she must handle is made to weigh less. In Hydrostatic Extrusion of 60 mm Mortar Tubes Watervliet Arsenal Watervliet N.Y. October 1974 available from NTIS Springfield Va. DeFries describes the hydrostatic extrusion of four 60 mm tubes made of Inconel a superalloy. These tubes were relatively thick walled approximately 5 mm or greater and included cooling fins. Although some mechanical tests were performed on the DeFries tubes it does not appear that the tubes were ever live fire tested. There is a need for a mortar tube that is light in weight thin walled cheap to manufacture no cooling fins and capable of rapid continuous firing without failure.
+
+An object of the invention is to provide mortar tubes that are lighter in weight than known mortar tubes.
+
+A further object of the invention is to provide light weight finless mortar tubes that can withstand rapid continuous firing rates without plastic deformation.
+
+One aspect of the invention is a mortar tube comprising a tube having no cooling fins made of a superalloy and having a nominal constant inside diameter of about 60 mm the tube comprising seriatim a breech end a beginning taper point an ending taper point a lower clamp region an upper clamp region and a muzzle end a nominal wall thickness of the tube being constant from forward of the breech end to the beginning taper point and the nominal wall thickness of the tube decreasing from the beginning taper point to the ending taper point wherein the tube does not undergo plastic deformation when firing 30 rounds per minute for four minutes and 20 rounds per minute continuous thereafter at a maximum pressure of about 10 080 psi.
+
+Another aspect of the invention is a mortar tube comprising a tube having no cooling fins made of a superalloy and having a nominal constant inside diameter of about 81 mm the tube comprising seriatim a breech end a beginning taper point an ending taper point a lower clamp region an upper clamp region and a muzzle end a nominal wall thickness of the tube being constant from forward of the breech end to the beginning taper point and the nominal wall thickness of the tube decreasing from the beginning taper point to the ending taper point wherein the tube does not undergo plastic deformation when firing 30 rounds per minute for two minutes and 15 rounds per minute continuous thereafter at a maximum pressure of about 15 800 psi.
+
+The invention will be better understood and further objects features and advantages thereof will become more apparent from the following description of the preferred embodiments taken in conjunction with the accompanying drawings.
+
+The embodiments of the present invention are mortar tubes that do not have the cooling fins of conventional mortar tubes. The inventive mortar tubes are made of a high strength superalloy. Superalloys are known and typically fall into one of three types iron based cobalt based and nickel based. In general the superalloys have material strengths greater than 140 ksi at tube temperatures greater than 1000 degrees Fahrenheit. The use of a higher strength material permits a thinner wall thickness as compared to conventional tubes. The mortar tubes made according to the invention weigh approximately thirty percent less than conventional mortar tubes.
+
+Many complex interrelated and often conflicting factors influence the wall thickness of a mortar tube. Through years of work the inventors have developed tube profiles for 60 mm and 81 mm finless mortar tubes made of a superalloy such as Inconel 718 Factors considered include inter alia interior ballistics heat transfer temperature and pressure profiles amount of charge per round charge one to charge four projectile weight required rate of fire wearing of the tube thickness and stresses not induced by firing for example impact stresses caused by dropping the tube on the ground and stresses caused by attaching other components to the tube such as a bipod. Both computer simulations and live firing test methods were used. Another factor that influences the wall thickness is the manufacturing method. Tubes of a given thickness profile may be satisfactorily produced using one manufacturing method but another manufacturing method may require adjustments to the tube thickness.
+
+The rate of fire ROF in number of rounds per minute rds min is an important factor in determining the temperatures that a mortar tube will experience. The higher the ROF number the higher the temperatures the mortar tube will experience. For an 81 mm finless mortar tube of conventional construction the maximum ROF is 25 rds min for 1 minute and 5 rds min sustained. The conventional tube has a low ROF and is unable to satisfy future requirements for operational use.
+
+In the invention the performance criteria for the 60 mm and 81 mm tubes involve worst case firing conditions wherein the ambient air temperature is 145 F 63 C and there is no wind related cooling a calm day . In accordance with the requirements of STANAG 4110 A NATO STANardization AGreement for the Definition of Pressure Terms and Their Interrelationship for Use in the Design and Proof of Cannons or Mortars and Ammunition the mortar tube must be able to function within its design requirements without undergoing plastic deformation when firing a 1 in a million max pressure.
+
+The ROF for the inventive 60 mm tube is 30 rounds per minute for 4 minutes and 20 rounds per minute continuous thereafter. The 60 mm round is a charge four round with a 3 lbm projectile. The one in a million pressure for the 60 mm tube is 10 080 psi. For the 60 mm tube the hottest temperature occurs during the first 4 minutes when the barrel is being fired at 30 rpm.
+
+The ROF for the inventive 81 mm tube is 30 rounds per minute for 2 minutes and 15 rounds per minute continuous thereafter. The 81 mm round is a charge four round with a 9 lbm projectile. The one in a million pressure for the 81 mm tube is 15 800 psi. For the 81 mm tube the hottest temperature is reached during the sustained firing period at 15 rpm.
+
+Tube has a nominal constant inside diameter of about 60 mm. Tube includes a breech end a beginning taper point an ending taper point a lower clamp region an upper clamp region and a muzzle end . In the embodiment of a separate base cap not shown is attached to breech end . However the breech end may also be manufactured with an integral base cap. Tube does not undergo plastic deformation when firing 30 rounds per minute for four minutes and 20 rounds per minute continuous thereafter the rounds being charge four rounds with projectiles of three lbm. Tube will perform as stated for at least 10 000 rounds.
+
+The nominal wall thickness a of the tube is constant from forward of the breech end to the beginning taper point . The nominal constant wall thickness a is in a range of about 2.6 mm to about 3 mm and more preferably in a range of about 2.6 mm to about 2.83 mm.
+
+The nominal wall thickness b of the tube decreases from the beginning taper point to the ending taper point . The taper of the outside surface of the tube from the beginning taper point to the ending taper point is in a range of about 0.44 degrees to about 0.55 degrees and more preferably in a range of about 0.47 degrees to about 0.51 degrees. In one embodiment the nominal wall thickness at the beginning taper point is about 2.6 mm and the nominal wall thickness at the ending taper point is about 1.67 mm. In another embodiment the nominal wall thickness at the beginning taper point is about 2.83 mm and the nominal wall thickness at the ending taper point is about 1.97 mm.
+
+The distance e from the muzzle end to the beginning taper point is in a range of about 590 mm to about 600 mm. The distance f from the muzzle end to the ending taper point is in a range of about 485 mm to about 495 mm. In a preferred embodiment the distance e is about 594 mm and the distance f is about 490 mm.
+
+The nominal wall thickness c may be constant from the ending taper point to aft of the lower clamp region . The nominal constant wall thickness c from the ending taper point to aft of the lower clamp region may be in a range of about 1.67 mm to about 1.97 mm.
+
+The nominal wall thickness d from the lower clamp region to the upper clamp region and from the upper clamp region to the muzzle end may be constant. The nominal constant wall thickness d may be in a range of about 1.5 mm to about 2 mm. In one embodiment the constant nominal wall thickness d is about 1.55 mm.
+
+The edges of the lower and upper clamp regions have wall thicknesses that are greater than the adjacent nominal wall thicknesses. The wall thickness of the central area of lower clamp region may be about 1.85 mm. The wall thickness of the central area of the upper clamp region may be about 1.55 mm. Other areas of increased wall thickness include the muzzle end the breech end and rings . Rings may be used to locate and contain a steel band not shown used to arm a projectile.
+
+Tube may be formed by for example forging and machining or a metal flow forming process. In general if the tube is forged and machined the thinner wall thicknesses may be used. If the tube is flow formed then the thicker wall thicknesses may be used.
+
+Tube has a nominal constant inside diameter of about 81 mm. Tube includes a breech end a beginning taper point ending taper points and a lower clamp region an upper clamp region a blast attenuation device and a muzzle end . In the embodiment of a separate base cap not shown is attached to breech end . However the breech end may also be manufactured with an integral base cap. Tube does not undergo plastic deformation when firing 30 rounds per minute for two minutes and 15 rounds per minute continuous thereafter the rounds being charge four rounds with projectiles of nine lbm. Tube will perform as stated for at least 10 000 rounds.
+
+The nominal wall thickness h of the tube is constant from forward of the breech end to the beginning taper point . The nominal constant wall thickness h is in a range of about 4.97 mm to about 5.7 mm and more preferably in a range of about 4.97 mm to about 5.42 mm.
+
+The nominal wall thickness i of the tube decreases from the beginning taper point to the ending taper point or . The taper of the outside surface of the tube from the beginning taper point to the ending taper point or is in a range of about 0.60 degrees to about 0.90 degrees and preferably in a range of about 0.70 degrees to about 0.83 degrees.
+
+In one embodiment the nominal wall thickness at the beginning taper point is about 4.97 mm and the nominal wall thickness at the ending taper point is about 2.8 mm. In another embodiment the nominal wall thickness at the beginning taper point is about 5.42 mm and the nominal wall thickness at the ending taper point is about 3.26 mm.
+
+The distance k from the muzzle end to the beginning taper point is in a range of about 880 mm to about 890 mm from the muzzle end . Preferably the distance k is about 886 mm. In one embodiment the ending taper point is just aft of the lower clamp region . In another embodiment the distance l from the muzzle end to the ending taper point is in the range of about 730 mm to about 740 mm and the nominal constant wall thickness j from the ending taper point to the lower clamp region is in a range of about 3.24 mm to about 3.28 mm. Preferably the distance l is about 737 mm.
+
+The nominal wall thickness m decreases from the lower clamp region to the upper clamp region . The taper of the outside surface of the tube from the lower clamp region to the upper clamp region may be in a range of about 0.13 degrees to about 0.17 degrees. In one embodiment the nominal wall thickness m decreases from about 2.1 mm forward of the lower clamp region to about 1.61 mm aft of the upper clamp region . In another embodiment the nominal wall thickness m decreases from about 2.21 mm forward of the lower clamp region to about 1.71 mm aft of the upper clamp region .
+
+A constant nominal wall thickness n from the upper clamp region to aft of the blast attenuation device may be in a range of about 1.6 mm to about 1.9 mm. Preferably the constant nominal wall thickness n from the upper clamp region to aft of the blast attenuation device is about 1.63 mm.
+
+The edges of the lower and upper clamp regions have wall thicknesses that are greater than the adjacent nominal wall thicknesses. The wall thickness of the central area of lower clamp region may be about 2.55 mm. The wall thickness of the central area of the upper clamp region may be about 2.55 mm. Other areas of increased wall thickness include the muzzle end and the breech end .
+
+Tube may be formed by for example forging and machining or a metal flow forming process. In general if the tube is forged and machined the thinner wall thicknesses may be used. If the tube is flow formed then the thicker wall thicknesses may be used. Whether forged and machined flow formed or made with some other technique the blast attenuation device is formed integrally with the tube . In the past the device was a separate component that had to be added to the tube after manufacture. Adding the device to the tube after manufacture was a costly process.
+
+While the invention has been described with reference to certain preferred embodiments numerous changes alterations and modifications to the described embodiments are possible without departing from the spirit and scope of the invention as defined in the appended claims and equivalents thereof.
+
